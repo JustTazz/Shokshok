@@ -1,0 +1,135 @@
+body,
+html {
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 1.1em;
+    background-color: rgb(51, 51, 51);
+}
+
+.header,
+.content,
+.sidebar,
+.footer {
+    padding: 16px 23px;
+    color: #49a0e9;
+    box-sizing: border-box;
+}
+
+.header {
+    line-height: 80px;
+    background-color: rgb(46, 46, 46);
+    border-width: 3px;
+    font-size: 1.3em;
+    border-color: #4d91f8;
+    /* border-style: solid; */
+}
+
+.content {
+    background-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-width: 5px;
+    text-justify: auto;
+    font-size: 1.1em;
+    padding-right: 550px;
+    border-color: #458cf7;
+    text-align: center;
+    height: 740px;
+    padding-top: 10px;
+}
+
+.sidebar {
+    background-color: #058cfae5;
+    color: white;
+    font-size: 1.1em;
+    background-image: url(shokshok.png);
+    background-position: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 6px;
+}
+
+.footer {
+    background-color: rgb(51, 51, 51);
+    height: 95px;
+    padding-top: 45px;
+    align-content: start;
+    margin-left: 43px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    top: 90px;
+    font-size: 27px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    margin-left: 459px;
+    margin-top: 1px;
+    font-weight: bold;
+    border-style: double;
+    border-color: #4d91f8;
+    width: 50%;
+    border-width: 5px;
+    text-shadow: black 2px 3px 3px;
+    border-radius: 60px;
+}
+
+.logo {
+    height: 390px;
+    margin-left: 350px;
+    border-style: solid;
+    border-color: BLACK;
+    border-width: 5px;
+}
+
+.logo100px {
+    height: 13%;
+    position: absolute;
+    left: 3px;
+    top: 116px;
+}
+
+em {
+    text-shadow: 3px 3px 5px;
+    margin-left: 900px;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+/* .discord {
+    position: relative;
+    top: 5px;
+    height: 78%;
+}
+
+.twitter {
+    height: 40px;
+    position: relative;
+    right: 1500px;
+} */

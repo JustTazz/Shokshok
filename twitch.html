@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,100&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="twitchbase.css">
+    <link rel="stylesheet" href="twitch.css">
+    <link rel="shortcut icon" href="img/shok.png" type="image/png">
+    <title>Shokshok</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <!-- <img class="logo80px" src="shok80px.png" alt="shoklogo"> -->
+        <em>Shokshok TV</em>
+
+
+    </header>
+
+    <aside class="sidebar">
+        <ul>
+            <img class="logo100px" src="shok100px.png" alt="shoklogo">
+            <li><a href="index.html">Accueil</a>
+                <a href="présentation.html">Présentation</a></li>
+
+
+
+        </ul>
+
+    </aside>
+
+
+    <div class="content">
+
+        <div id="twitch-embed">
+
+
+            <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+
+            <script type="text/javascript">
+                new Twitch.Embed("twitch-embed", {
+                    width: 1020,
+                    height: 700,
+                    channel: "shokshok",
+                    autoplay: true,
+                });
+            </script>
+        </div>
+
+
+    </div>
+
+
+    <footer class="footer">
+        <a href="https://twitter.com/LShokshok"> <img class=twitter src="img/twitter.ico" alt="icon twitter" width="37" height="37"></a>
+        <a class="discord" href="https://discord.gg/Z5yz6HvHDN"><img src="img/discord.ico" alt="icon discord" width="37" height="37"></a>
+        <a href="https://steamcommunity.com/profiles/76561198070387606/"><img src="img/steam_alt_macos_bigsur_icon_189698.ico" alt="icon steam" width="37" height="37"></a>
+        <a href="https://www.twitch.tv/shokshok"><img src="img/twitch.ico" alt="icon twitch" width="37" height="37"></a>
+    </footer>
+</body>
+
+</html>

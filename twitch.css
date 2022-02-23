@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    flex-basis: 100%;
+}
+
+.sidebar {
+    flex-basis: 15%;
+}
+
+.content {
+    flex-basis: 85%;
+}
+
+.footer {
+    flex-basis: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .sidebar {
+        flex-basis: 100%;
+    }
+}
